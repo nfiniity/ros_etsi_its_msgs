@@ -8,6 +8,7 @@ add_message_files(
   Altitude.msg
   CAM.msg
   Curvature.msg
+  Heading.msg
   LongitudinalAcceleration.msg
   PositionConfidenceEllipse.msg
   ReferencePosition.msg
