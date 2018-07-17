@@ -1,0 +1,5 @@
+int16 value # 0.1 m/s^2
+uint8 confidence # 0.1 m/s^2
+
+uint8 CONFIDENCE_OUT_OF_RANGE = 101
+uint8 CONFIDENCE_UNAVAILABLE = 102

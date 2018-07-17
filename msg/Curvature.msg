@@ -1,0 +1,9 @@
+# NOTE: DE_CurvatureValue is going to change, this still follows CDD v1.2.1
+int16 value # m^-1
+uint8 confidence
+
+int16 VALUE_RECIPROCAL_OF_ONE_METER_RIGHT = -30000
+int16 VALUE_RECIPROCAL_OF_ONE_METER_LEFT = 30000
+
+uint8 CONFIDENCE_OUT_OF_RANGE = 6
+uint8 CONFIDENCE_UNAVAILABLE = 7
