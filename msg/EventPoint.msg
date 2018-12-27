@@ -1,0 +1,3 @@
+DeltaReferencePosition event_position
+uint16 event_delta_time # 10 ms
+InformationQuality information_quality

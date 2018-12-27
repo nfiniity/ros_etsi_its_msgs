@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>etsi_its_msgs</name>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
   <description>ROS equivalents of ETSI ITS messages, e.g. CAM and DENM</description>
 
   <maintainer email="raphael.riebl@thi.de">Raphael Riebl</maintainer>
