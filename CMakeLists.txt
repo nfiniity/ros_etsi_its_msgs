@@ -6,8 +6,11 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 add_message_files(
   FILES
   Altitude.msg
+  BasicVehicleContainerHighFrequency.msg
   CAM.msg
   Curvature.msg
+  CurvatureCalculationMode.msg
+  DriveDirection.msg
   Heading.msg
   ItsPduHeader.msg
   LongitudinalAcceleration.msg
@@ -16,6 +19,7 @@ add_message_files(
   Speed.msg
   StationType.msg
   VehicleLength.msg
+  VehicleWidth.msg
   YawRate.msg
 )
 
