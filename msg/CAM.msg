@@ -1,10 +1,6 @@
 Header header
-
-# CAM header
-uint8 protocol_version
-uint8 message_id
-uint32 station_id
-uint16 generation_delta_time # ms
+ItsPduHeader its_header
+uint16 generation_delta_time # milliseconds since 2004 modulo 2^16
 
 # basic container
 uint16 station_type

@@ -9,6 +9,7 @@ add_message_files(
   CAM.msg
   Curvature.msg
   Heading.msg
+  ItsPduHeader.msg
   LongitudinalAcceleration.msg
   PositionConfidenceEllipse.msg
   ReferencePosition.msg
