@@ -7,18 +7,24 @@ add_message_files(
   FILES
   Altitude.msg
   BasicVehicleContainerHighFrequency.msg
+  BasicVehicleContainerLowFrequency.msg
   CAM.msg
   Curvature.msg
   CurvatureCalculationMode.msg
+  DeltaReferencePosition.msg
   DriveDirection.msg
+  ExteriorLights.msg
   Heading.msg
   ItsPduHeader.msg
   LongitudinalAcceleration.msg
+  PathHistory.msg
+  PathPoint.msg
   PositionConfidenceEllipse.msg
   ReferencePosition.msg
   Speed.msg
   StationType.msg
   VehicleLength.msg
+  VehicleRole.msg
   VehicleWidth.msg
   YawRate.msg
 )

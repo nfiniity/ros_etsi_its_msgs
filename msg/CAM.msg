@@ -9,4 +9,7 @@ ReferencePosition reference_position
 # TODO either BasicVehicle or RSU
 BasicVehicleContainerHighFrequency high_frequency_container
 
+bool has_low_frequency_container
+BasicVehicleContainerLowFrequency low_frequency_container
 
+# TODO special vehicle container is missing
