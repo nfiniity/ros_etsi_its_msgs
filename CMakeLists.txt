@@ -14,6 +14,7 @@ add_message_files(
   PositionConfidenceEllipse.msg
   ReferencePosition.msg
   Speed.msg
+  StationType.msg
   VehicleLength.msg
   YawRate.msg
 )
