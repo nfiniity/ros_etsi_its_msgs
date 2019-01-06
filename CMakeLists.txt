@@ -24,6 +24,7 @@ add_message_files(
   LocationContainer.msg
   LongitudinalAcceleration.msg
   ManagementContainer.msg
+  PathDeltaTime.msg
   PathHistory.msg
   PathPoint.msg
   PositionConfidenceEllipse.msg

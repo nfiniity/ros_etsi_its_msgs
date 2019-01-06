@@ -1,3 +1,3 @@
 DeltaReferencePosition event_position
-uint16 event_delta_time # 10 ms
+PathDeltaTime event_delta_time
 InformationQuality information_quality
