@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 
 add_message_files(
   FILES
+  AccelerationControl.msg
   ActionID.msg
   Altitude.msg
   BasicVehicleContainerHighFrequency.msg
