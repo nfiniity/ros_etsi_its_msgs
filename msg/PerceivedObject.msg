@@ -6,9 +6,9 @@ int32 objectConfidence # unknown(0), onePercent(1), oneHundredPercent(100), unav
 ObjectDistanceWithConfidence xDistance
 ObjectDistanceWithConfidence yDistance
 ObjectDistanceWithConfidence zDistance
-Speed xSpeed
-Speed ySpeed
-Speed zSpeed
+SpeedExtended xSpeed
+SpeedExtended ySpeed
+SpeedExtended zSpeed
 LongitudinalAcceleration xAcceleration
 LateralAcceleration yAcceleration
 ObjectDimension planarObjectDimension1

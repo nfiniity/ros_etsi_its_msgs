@@ -44,6 +44,7 @@ add_message_files(
   SensorInformationContainer.msg
   SituationContainer.msg
   Speed.msg
+  SpeedExtended.msg
   StationType.msg
   VehicleLength.msg
   VehicleRole.msg
