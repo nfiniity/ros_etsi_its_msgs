@@ -11,32 +11,46 @@ add_message_files(
   BasicVehicleContainerLowFrequency.msg
   CAM.msg
   CauseCode.msg
+  CPM.msg
   Curvature.msg
   CurvatureCalculationMode.msg
   DeltaReferencePosition.msg
   DENM.msg
   DriveDirection.msg
+  DynamicStatus.msg
   EventPoint.msg
   ExteriorLights.msg
   Heading.msg
   InformationQuality.msg
   ItsPduHeader.msg
+  LateralAcceleration.msg
   LocationContainer.msg
   LongitudinalAcceleration.msg
   ManagementContainer.msg
+  ObjectClassDescription.msg
+  ObjectDimension.msg
+  ObjectDistanceWithConfidence.msg
+  ObjectRefPoint.msg
+  OriginatingVehicleContainer.msg
   PathDeltaTime.msg
   PathHistory.msg
   PathPoint.msg
+  PerceivedObject.msg
   PositionConfidenceEllipse.msg
   ReferencePosition.msg
   RelevanceDistance.msg
   RelevanceTrafficDirection.msg
+  SensorInformation.msg
+  SensorInformationContainer.msg
   SituationContainer.msg
   Speed.msg
   StationType.msg
   VehicleLength.msg
   VehicleRole.msg
+  VehicleSensor.msg
+  VehicleSensorProperty.msg
   VehicleWidth.msg
+  WGS84Angle.msg
   YawRate.msg
 )
 

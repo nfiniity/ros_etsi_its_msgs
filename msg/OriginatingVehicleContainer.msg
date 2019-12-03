@@ -1,0 +1,8 @@
+Heading heading
+Speed speed
+DriveDirection drive_direction
+VehicleLength vehicle_length
+VehicleWidth vehicle_width
+LongitudinalAcceleration longitudinal_acceleration
+YawRate yaw_rate
+WGS84Angle vehicleOrientationAngle

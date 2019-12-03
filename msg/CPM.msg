@@ -17,6 +17,6 @@ bool has_sensor_information_container
 SensorInformationContainer sensorInformationContainer
 
 bool has_perceived_object_container
-PerceivedObjectContainer perceivedObjectContainer
+PerceivedObject[] perceivedObjectContainer
 
-NumberOfPerceivedObjects numberOfPerceivedObjects
+int32 numberOfPerceivedObjects
