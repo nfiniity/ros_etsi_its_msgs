@@ -16,7 +16,7 @@ OriginatingVehicleContainer originatingVehicleContainer
 bool has_sensor_information_container
 SensorInformationContainer sensorInformationContainer
 
-bool has_perceived_object_container
-PerceivedObject[] perceivedObjectContainer
+bool has_list_of_perceived_object
+ListOfPerceivedObjects listOfPerceivedObjects
 
 int32 numberOfPerceivedObjects

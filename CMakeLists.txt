@@ -24,6 +24,7 @@ add_message_files(
   InformationQuality.msg
   ItsPduHeader.msg
   LateralAcceleration.msg
+  ListOfPerceivedObjects.msg
   LocationContainer.msg
   LongitudinalAcceleration.msg
   ManagementContainer.msg
