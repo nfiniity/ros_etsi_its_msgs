@@ -8,4 +8,8 @@ Curvature curvature
 CurvatureCalculationMode curvature_calculation_mode
 YawRate yaw_rate
 
-# TODO optional data fields
+# optional data fields
+bool has_acceleration_control
+AccelerationControl acceleration_control
+
+# TODO further (optional) data fields are missing

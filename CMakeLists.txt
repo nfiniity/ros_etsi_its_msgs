@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
 
 add_message_files(
   FILES
+  AccelerationControl.msg
   ActionID.msg
   Altitude.msg
   BasicVehicleContainerHighFrequency.msg
@@ -63,7 +64,7 @@ catkin_package(
   CATKIN_DEPENDS std_msgs message_runtime
 )
 
-install(DIRECTORY include/${PROJECT_NAME}
+install(DIRECTORY include/${PROJECT_NAME}/
   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
   FILES_MATCHING PATTERN "*.h"
 )
