@@ -1,4 +1,5 @@
 uint8 objectID
+uint16 sensorID
 uint8[] sensorIDList
 time timeOfDetection
 int32 timeOfMeasurement #INTEGER {oneMilliSecond(1)} (-1500..1500)
