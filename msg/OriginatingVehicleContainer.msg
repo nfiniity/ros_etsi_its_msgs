@@ -17,4 +17,6 @@ uint8 vehicle_height
 
 bool has_longitudinal_acceleration
 LongitudinalAcceleration longitudinal_acceleration
+
+bool has_yaw_rate
 YawRate yaw_rate
