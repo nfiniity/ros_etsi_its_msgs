@@ -1,5 +1,5 @@
 uint8 objectID
-uint16 sensorID
+bool has_sensorIDList
 uint8[] sensorIDList
 time timeOfDetection
 int32 timeOfMeasurement #INTEGER {oneMilliSecond(1)} (-1500..1500)
@@ -13,9 +13,14 @@ SpeedExtended ySpeed
 SpeedExtended zSpeed
 LongitudinalAcceleration xAcceleration
 LateralAcceleration yAcceleration
+
+bool has_planarObjectDimension1
 ObjectDimension planarObjectDimension1
+bool has_planarObjectDimension2
 ObjectDimension planarObjectDimension2
+bool has_verticalObjectDimension
 ObjectDimension verticalObjectDimension
+
 ObjectRefPoint objectRefPoint
 DynamicStatus dynamicStatus
 StationType classification
