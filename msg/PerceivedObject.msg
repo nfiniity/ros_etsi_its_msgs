@@ -19,4 +19,5 @@ ObjectDimension verticalObjectDimension
 ObjectRefPoint objectRefPoint
 DynamicStatus dynamicStatus
 StationType classification
+MatchedPosition matchedPosition
 float32 objectAngle
