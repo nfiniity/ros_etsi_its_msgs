@@ -1,8 +1,20 @@
 Heading heading
 Speed speed
+
+bool has_vehicleOrientationAngle
+WGS84Angle vehicleOrientationAngle
+
 DriveDirection drive_direction
+
+bool has_vehicle_length
 VehicleLength vehicle_length
+
+bool has_vehicle_width
 VehicleWidth vehicle_width
+
+bool has_vehicle_height
+uint8 vehicle_height
+
+bool has_longitudinal_acceleration
 LongitudinalAcceleration longitudinal_acceleration
 YawRate yaw_rate
-WGS84Angle vehicleOrientationAngle
