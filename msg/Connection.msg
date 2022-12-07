@@ -1,0 +1,4 @@
+uint16 connectingLane
+uint16 remoteIntersection
+uint8 signalGroup
+uint8 connectionID

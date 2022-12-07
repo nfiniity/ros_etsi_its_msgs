@@ -1,0 +1,2 @@
+string eventState
+uint16 minEndTime

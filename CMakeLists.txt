@@ -39,6 +39,15 @@ add_message_files(
   VehicleRole.msg
   VehicleWidth.msg
   YawRate.msg
+  GenericLane.msg
+  IntersectionGeometry.msg
+  Intersections.msg
+  Connection.msg
+  NodeSetXY.msg
+  SPATEM.msg
+  IntersectionState.msg
+  MovementState.msg
+  MovementEvent.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs)
