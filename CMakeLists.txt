@@ -48,6 +48,7 @@ add_message_files(
   IntersectionState.msg
   MovementState.msg
   MovementEvent.msg
+  MAPEM.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs)

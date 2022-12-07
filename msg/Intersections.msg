@@ -1,3 +1,1 @@
-Header header
-
 IntersectionGeometry[] intersects
