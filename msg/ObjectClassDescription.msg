@@ -1,0 +1,9 @@
+#TODO apply the correct one
+int32 type
+
+int32 TYPE_UNKNOWN = 0
+int32 TYPE_MOPED = 1
+int32 TYPE_MOTORCYCLE = 2
+int32 TYPE_PASSENGERCAR = 3
+int32 TYPE_BUS = 3
+int32 TYPE_LIGHTRUCK = 3

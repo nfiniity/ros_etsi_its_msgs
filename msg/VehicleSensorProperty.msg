@@ -1,0 +1,8 @@
+int32 range # zeroPointOneMeter(1), oneMeter(10)} (0..10000)
+int32 horizontalOpeningAngleStart # zeroPointOneDegree(1), oneDegree(10), unavailable(3601)} (0..3601)
+int32 horizontalOpeningAngleEnd # zeroPointOneDegree(1), oneDegree(10), unavailable(3601)} (0..3601)
+
+bool has_verticalOpeningAngleStart
+int32 verticalOpeningAngleStart # zeroPointOneDegree(1), oneDegree(10), unavailable(3601)} (0..3601)
+bool has_verticalOpeningAngleEnd
+int32 verticalOpeningAngleEnd # zeroPointOneDegree(1), oneDegree(10), unavailable(3601)} (0..3601)
