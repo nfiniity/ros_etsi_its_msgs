@@ -20,6 +20,9 @@ jobs:
         required-ros-distributions: foxy
     - name: Checkout repository    
       uses: actions/checkout@v3
+      with:
+        ref: foxy
+        path: dev_ws/src/etsi_its_msgs
     - name: Build 
       run: |
         source /opt/ros/foxy/setup.bash
