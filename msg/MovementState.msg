@@ -1,2 +1,2 @@
-uint8 signalGroup
-MovementEvent[] stateTimeSpeed
+uint8 signal_group
+MovementEvent[] state_time_speed
