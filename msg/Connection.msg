@@ -1,4 +1,4 @@
-uint16 connectingLane
-uint16 remoteIntersection
-uint8 signalGroup
-uint8 connectionID
+uint16 connecting_lane
+uint16 remote_intersection
+uint8 signal_group
+uint8 connection_id
