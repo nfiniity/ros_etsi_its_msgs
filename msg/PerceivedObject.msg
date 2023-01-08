@@ -1,7 +1,7 @@
 uint8 object_id
 bool has_sensor_id_list
 uint8[] sensor_id_list
-time time_of_detection
+builtin_interfaces/Time time_of_detection
 int32 time_of_measurement #INTEGER {oneMilliSecond(1)} (-1500..1500)
 int32 object_age #{oneMiliSec(1)} (0..1500)
 int32 object_confidence # unknown(0), onePercent(1), oneHundredPercent(100), unavailable(101)} (0..101)
