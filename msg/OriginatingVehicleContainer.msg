@@ -1,8 +1,8 @@
 Heading heading
 Speed speed
 
-bool has_vehicleOrientationAngle
-WGS84Angle vehicleOrientationAngle
+bool has_vehicle_orientation_angle
+WGS84Angle vehicle_orientation_angle
 
 DriveDirection drive_direction
 
