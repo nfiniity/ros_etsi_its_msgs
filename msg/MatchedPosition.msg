@@ -1,2 +1,2 @@
-uint8 laneID
+uint8 lane_id
 # LongitudinalLanePosition
