@@ -1,1 +1,1 @@
-SensorInformation[] sensorsInformation
+SensorInformation[] sensors_information
