@@ -93,11 +93,6 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-catkin_package(
-  INCLUDE_DIRS include
-  CATKIN_DEPENDS std_msgs message_runtime
-)
-
 ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
