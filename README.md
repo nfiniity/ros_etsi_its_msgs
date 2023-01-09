@@ -2,5 +2,5 @@
 
 ## Licence
 
-This project is licensed under MIT. See [LICENSE](./LICENSE) file for details.
+This project is licensed under BSD-3. See [LICENSE](./LICENSE) file for details.
 
