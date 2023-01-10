@@ -1,5 +1,5 @@
 ## Contributors
 
-- Raphael Riebl
-- Quentin Delooz 
-- Apostolos Georgiadis
+- Raphael Riebl, Technische Hochschule Ingolstadt
+- Quentin Delooz, Technische Hochschule Ingolstadt
+- Apostolos Georgiadis, nfiniity GmbH
