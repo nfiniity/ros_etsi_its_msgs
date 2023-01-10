@@ -4,7 +4,7 @@ ROS equivalents of ETSI ITS [(European Telecommunications Standards Institute In
 
 ## Authors
 
-See the [AUTHORS](./AUTHORS) file for a full list of contributors.
+See the [AUTHORS](./AUTHORS.md) file for a full list of contributors.
 
 ## Licence
 
