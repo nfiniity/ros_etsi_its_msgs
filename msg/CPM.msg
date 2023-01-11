@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 ItsPduHeader its_header
 
 #CpmParameters container
@@ -12,14 +12,14 @@ ReferencePosition reference_position
 
 ## StationDataContainer
 # TODO extend to OriginatingRSUContainer
-OriginatingVehicleContainer originatingVehicleContainer
+OriginatingVehicleContainer originating_vehicle_container
 
 bool has_sensor_information_container
-SensorInformationContainer sensorInformationContainer
+SensorInformationContainer sensor_information_container
 
 bool has_list_of_perceived_object
-ListOfPerceivedObjects listOfPerceivedObjects
+ListOfPerceivedObjects list_of_perceived_objects
 
-int32 numberOfPerceivedObjects
+int32 number_of_perceived_objects
 
 # TODO: include FreeSpaceAddendumContainer

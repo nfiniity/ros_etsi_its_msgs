@@ -1,8 +1,8 @@
-uint8 laneID
+uint8 lane_id
 string name
-uint8 ingressApproach
-uint8 egressApproach
-uint8 laneDirection
+uint8 ingress_approach
+uint8 egress_approach
+uint8 lane_direction
 
-NodeSetXY[] nodeList
-Connection[] connectsTo
+NodeSetXY[] node_list
+Connection[] connects_to

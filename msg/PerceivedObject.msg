@@ -1,28 +1,28 @@
-uint8 objectID
-bool has_sensorIDList
-uint8[] sensorIDList
-time timeOfDetection
-int32 timeOfMeasurement #INTEGER {oneMilliSecond(1)} (-1500..1500)
-int32 objectAge #{oneMiliSec(1)} (0..1500)
-int32 objectConfidence # unknown(0), onePercent(1), oneHundredPercent(100), unavailable(101)} (0..101)
-ObjectDistanceWithConfidence xDistance
-ObjectDistanceWithConfidence yDistance
-ObjectDistanceWithConfidence zDistance
-SpeedExtended xSpeed
-SpeedExtended ySpeed
-SpeedExtended zSpeed
-LongitudinalAcceleration xAcceleration
-LateralAcceleration yAcceleration
+uint8 object_id
+bool has_sensor_id_list
+uint8[] sensor_id_list
+builtin_interfaces/Time time_of_detection
+int32 time_of_measurement #INTEGER {oneMilliSecond(1)} (-1500..1500)
+int32 object_age #{oneMiliSec(1)} (0..1500)
+int32 object_confidence # unknown(0), onePercent(1), oneHundredPercent(100), unavailable(101)} (0..101)
+ObjectDistanceWithConfidence x_distance
+ObjectDistanceWithConfidence y_distance
+ObjectDistanceWithConfidence z_distance
+SpeedExtended x_speed
+SpeedExtended y_speed
+SpeedExtended z_speed
+LongitudinalAcceleration x_acceleration
+LateralAcceleration y_acceleration
 
-bool has_planarObjectDimension1
-ObjectDimension planarObjectDimension1
-bool has_planarObjectDimension2
-ObjectDimension planarObjectDimension2
-bool has_verticalObjectDimension
-ObjectDimension verticalObjectDimension
+bool has_planar_object_dimension_1
+ObjectDimension planar_object_dimension_1
+bool has_planar_object_dimension_2
+ObjectDimension planar_object_dimension_2
+bool has_vertical_object_dimension
+ObjectDimension vertical_object_dimension
 
-ObjectRefPoint objectRefPoint
-DynamicStatus dynamicStatus
+ObjectRefPoint object_ref_point
+DynamicStatus dynamic_status
 StationType classification
-MatchedPosition matchedPosition
-float32 objectAngle
+MatchedPosition matched_position
+float32 object_angle

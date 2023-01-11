@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 ItsPduHeader its_header
 uint16 generation_delta_time # milliseconds since 2004 modulo 2^16
 
