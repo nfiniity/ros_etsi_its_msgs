@@ -12,6 +12,7 @@ add_message_files(
   BasicVehicleContainerLowFrequency.msg
   CAM.msg
   CauseCode.msg
+  CBR.msg
   CPM.msg
   Curvature.msg
   CurvatureCalculationMode.msg
