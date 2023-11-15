@@ -16,7 +16,6 @@ jobs:
         sudo apt-get install -y python3-bloom python3-rosdep2 fakeroot debhelper dh-python
     - name: Initialize rosdep
       run: |  
-       sudo rosdep init
        rosdep update
     - name: Checkout repository
       if: always()
@@ -27,3 +26,5 @@ jobs:
       run: |
         bloom-generate rosdebian
         fakeroot debian/rules binary
+        pwd
+        ls -lah
