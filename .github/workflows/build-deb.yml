@@ -31,3 +31,8 @@ jobs:
         rosdep update
         bloom-generate rosdebian --os-name ubuntu --os-version jammy --ros-distro humble
         fakeroot debian/rules binary
+    - name: Artifact upload
+    - uses: actions/upload-artifact@v3
+      with:
+        name: ros-humble-etsi-its-msgs
+        path: ./*.deb
