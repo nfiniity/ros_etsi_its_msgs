@@ -1,0 +1,28 @@
+name: Build Debian Package
+on:
+  push:
+    branches: [ "humble" ]
+  pull_request:
+    branches: [ "humble" ]
+permissions:
+  contents: read
+jobs:
+  build_debian:
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Install dependecies
+      run: |  
+        sudo apt update && sudo apt install -y python3-bloom python3-rosdep fakeroot debhelper dh-python
+    - name: Initialize rosdep
+      run: |  
+       sudo rosdep init
+       rosdep update
+       
+    - name: Checkout repository    
+      uses: actions/checkout@v4
+      with:
+        ref: humble
+    - name: Build debian package
+      run: |
+        bloom-generate rosdebian
+        fakeroot debian/rules binary
