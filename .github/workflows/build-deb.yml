@@ -22,8 +22,12 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: humble
+        path: etsi_its_msgs
     - name: Build debian package
       run: |
+        pwd
+        ls -lah
+        cd etsi_its_msgs
         bloom-generate rosdebian
         fakeroot debian/rules binary
         pwd
