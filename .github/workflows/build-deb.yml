@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - name: Install dependecies
-      uses: ConorMacBride/install-package@v1
-      with:
-        apt: python3-bloom python3-rosdep fakeroot debhelper dh-python
+      run: |  
+        sudo apt-get update
+        sudo apt-get install -y python3-bloom python3-rosdep fakeroot debhelper dh-python
     - name: Initialize rosdep
       run: |  
        sudo rosdep init
