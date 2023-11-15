@@ -2,28 +2,28 @@
 name: Build
 on:
   push:
-    branches: [ "foxy" ]
+    branches: [ "humble" ]
   pull_request:
-    branches: [ "foxy" ]
+    branches: [ "humble" ]
 permissions:
   contents: read
 
 jobs:
   build_and_test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Setup ROS environment
       uses: ros-tooling/setup-ros@0.4.1
       with:
         use-ros2-testing: true
         install-connext: false
-        required-ros-distributions: foxy
+        required-ros-distributions: humble
     - name: Checkout repository    
       uses: actions/checkout@v3
       with:
-        ref: foxy
+        ref: humble
         path: dev_ws/src/etsi_its_msgs
     - name: Build 
       run: |
-        source /opt/ros/foxy/setup.bash
+        source /opt/ros/humble/setup.bash
         colcon build
