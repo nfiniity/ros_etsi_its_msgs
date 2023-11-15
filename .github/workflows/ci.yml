@@ -1,5 +1,5 @@
 
-name: Build
+name: Build ROS
 on:
   push:
     branches: [ "humble" ]
