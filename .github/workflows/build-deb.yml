@@ -18,7 +18,6 @@ jobs:
       run: |  
         sudo apt-get update
         sudo apt-get install -y python3-bloom fakeroot debhelper dh-python
-        #sudo apt-get install -y python3-bloom python3-rosdep2 fakeroot debhelper dh-python
     - name: Initialize rosdep
       run: |
        rosdep update
