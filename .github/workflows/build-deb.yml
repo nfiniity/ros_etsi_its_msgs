@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Install dependecies
       run: |  
-        sudo apt-get update
+        sudo apt-get update && apt-get upgrade
         sudo apt-get install -y python3-bloom python3-rosdep2 fakeroot debhelper dh-python
     - name: Initialize rosdep
       run: |  
@@ -25,10 +25,6 @@ jobs:
         path: etsi_its_msgs
     - name: Build debian package
       run: |
-        pwd
-        ls -lah
         cd etsi_its_msgs
         bloom-generate rosdebian
         fakeroot debian/rules binary
-        pwd
-        ls -lah
