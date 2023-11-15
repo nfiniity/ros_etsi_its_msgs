@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: Install dependecies
       run: |  
-        sudo apt update && sudo apt install -y python3-bloom python3-rosdep fakeroot debhelper dh-python
+        sudo apt-get update && sudo apt-get install -y python3-bloom python3-rosdep fakeroot debhelper dh-python
     - name: Initialize rosdep
       run: |  
        sudo rosdep init
