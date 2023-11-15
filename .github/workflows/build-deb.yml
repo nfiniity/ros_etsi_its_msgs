@@ -25,5 +25,5 @@ jobs:
       run: |
         cd etsi_its_msgs
         rosdep update
-        bloom-generate rosdebian
+        bloom-generate rosdebian --os-name ubuntu --os-version jammy --ros-distro humble
         fakeroot debian/rules binary
