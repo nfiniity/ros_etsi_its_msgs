@@ -20,7 +20,6 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y python3-bloom fakeroot debhelper dh-python
     - name: Checkout repository
-      if: always()
       uses: actions/checkout@v4
       with:
         ref: humble
